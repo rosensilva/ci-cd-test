@@ -7,6 +7,5 @@ script:
 - export PATH=$PATH:$(pwd)/ballerina-0.964.0/bin
 - ballerina run hello-world.bal
 
-language: java
 jdk:
  - oraclejdk8
