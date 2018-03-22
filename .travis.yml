@@ -1,11 +1,5 @@
+install: ./install-dependencies.sh
 
 language: java
 jdk:
  - oraclejdk8
-
-install:
-# declare STRING variable
-STRING="Downloading ballerina..."
-BALLERINA_VERSION="ballerina-0.964.0"
-#print variable on a screen
-echo $STRING
