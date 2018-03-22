@@ -2,6 +2,9 @@ before_install:
 - sudo chmod +x install-dependencies.sh 
 install: ./install-dependencies.sh
 
+script:
+- ballerina run hello-world.bal
+
 language: java
 jdk:
  - oraclejdk8
