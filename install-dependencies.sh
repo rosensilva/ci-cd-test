@@ -5,7 +5,7 @@ BALLERINA_VERSION="ballerina-0.964.0"
 #print variable on a screen
 echo $STRING
 #download ballerina distro
-wget https://ballerinalang.org/downloads/ballerina-tools/$BALLERINA_VERSION.zip
+wget https://ballerinalang.org/downloads/ballerina-tools/ballerina-tools-0.964.0.zip
 #unzip the zip file
 unzip $BALLERINA_VERSION.zip
 
