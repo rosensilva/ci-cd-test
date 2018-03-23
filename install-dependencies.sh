@@ -1,7 +1,7 @@
 #!/bin/bash
 # declare STRING variable
 STRING="Downloading ballerina..."
-BALLERINA_VERSION="ballerina-0.964.0"
+BALLERINA_VERSION="ballerina-tools-0.964.0"
 #print variable on a screen
 echo $STRING
 #download ballerina distro
