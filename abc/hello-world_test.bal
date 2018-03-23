@@ -3,5 +3,5 @@ package abc;
 import ballerina.test;
 
 function testAdd(){
-  test:assertTrue(flase, "adad");
+  test:assertTrue(1==2, "adad");
 }
